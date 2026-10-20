@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 
 CSS = """
@@ -112,4 +113,10 @@ with gr.Blocks(title="Día de la Tecnología - Crea tu Avatar") as app:
     gr.HTML(PAGINA)
 
 if __name__ == "__main__":
-    app.launch(theme=gr.themes.Soft(primary_hue="violet"), css=CSS, share=True)
+     app.launch(
+        theme=gr.themes.Soft(primary_hue="violet"),
+        css=CSS,
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 10000)),
+        share=False
+      )
