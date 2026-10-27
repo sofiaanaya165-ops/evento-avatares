@@ -108,8 +108,7 @@ padding:30px 20px;background:#f4f7fb;border-radius:22px;">
   </p>
 </div>
 """
-
-with gr.Blocks(title="Día de la Tecnología - Crea tu Avatar") as app:
+with gr.Blocks(title="TECNOFEST 2026") as app:
     gr.HTML(PAGINA)
 
 if __name__ == "__main__":
