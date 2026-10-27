@@ -19,7 +19,7 @@ padding:30px 20px;background:#f4f7fb;border-radius:22px;">
   padding:30px 20px;border-radius:22px;border:1px solid #dbe3f0;">
 
     <p style="color:#5b21b6;font-weight:bold;letter-spacing:2px;">
-    DÍA DE LA TECNOLOGÍA CON INTELIGENCIA ARTIFICIAL
+    TECNOFEST-2026
     </p>
 
     <div style="font-size:55px;">🤖✨</div>
